@@ -1,0 +1,19 @@
+# SkriptLang of bukkit minecraft server.
+function Eeee(e: text, ee: number, eee: player) :: text:
+  set{eee::*} to null
+  if {Eeee} is not null:
+    set {eeEEeEeeee} to {eeEEeEeeee} + 1
+    set {eee::%{eeEEeEeeee}%} to {eeEEeEeeee} * "e" # cannot?! eeeeeeeee
+    broadcast "eee is not died yet! still sk counts! ë! %nl% now %{eee::%{eeEEeEeeee}%}%, %{e} * {ee}%"
+    return {eeEEeEeeee} parsed as text
+    
+    
+command /eee:
+  alias: /e
+  trigger:
+    set {Eeee} to now
+    set {eeEEeEeeee} to 0
+    loop {eee::*}:
+      broadcast loop-value
+      set {_e} to loop-value parsed as player
+      ban {_e}
