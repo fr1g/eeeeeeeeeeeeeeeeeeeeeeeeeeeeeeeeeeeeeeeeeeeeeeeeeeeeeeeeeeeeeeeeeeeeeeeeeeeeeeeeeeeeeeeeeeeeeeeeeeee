@@ -1,0 +1,10 @@
+# eeee ee Eeeeee eeeeee eee eeeeeeeee Eeeeee eeeeeee
+function e(e: text, ee: player)::text:
+    if {ee} has permission "eee":
+        return
+    else:
+        set {_e} to {e}
+        set {_e} to {e} parsed as number
+        wait {_e}
+        send "%{e}%, %{ee}%!" to player {ee}
+        
